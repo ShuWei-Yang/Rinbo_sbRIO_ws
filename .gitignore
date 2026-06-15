@@ -32,5 +32,6 @@ compile_commands.json
 install/
 build/
 log/
+
 # Third party
-third_party/
+third_party/grpc/
