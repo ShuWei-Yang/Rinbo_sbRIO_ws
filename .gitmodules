@@ -1,6 +1,6 @@
 [submodule "third_party/grpc_core"]
 	path = third_party/grpc_core
-	url = https://github.com/hiho817/grpc_core.git
+	url = https://github.com/ShuWei-Yang/grpc_core.git
 [submodule "third_party/yaml-cpp"]
 	path = third_party/yaml-cpp
 	url = https://github.com/jbeder/yaml-cpp.git
