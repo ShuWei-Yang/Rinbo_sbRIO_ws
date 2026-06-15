@@ -1,0 +1,36 @@
+# Build artifacts
+build/
+cmake-build-*/
+bin/
+obj/
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+Testing/
+install_manifest.txt
+compile_commands.json
+
+# Logs & temps
+*.log
+*.tmp
+*.swp
+*.swo
+
+# IDE/editor
+.vscode/
+.idea/
+*.code-workspace*.bit
+*.bin
+
+# ROS2 / colcon
+install/
+build/
+log/
+# Third party
+third_party/

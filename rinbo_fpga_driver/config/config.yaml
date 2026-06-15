@@ -1,0 +1,51 @@
+# --- Data logging ---
+log_data: 1
+log_path: "/home/shuweiyang/rinbo_sbRIO_ws/rinbo_fpga_driver/log/sample_test.csv"
+
+MainLoop_period_us: 1000
+RS485_CMD_us: 200
+RS485_IDLE_us: 50
+RS485_READ_us: 150
+
+Powerboard_Scaling_Factor:
+  -  # 1
+    Voltage_Factor: 0.0067
+    Voltage_Offset: 0.0308
+    Current_Factor: -0.0025
+    Current_Offset: 8.2156
+
+  -  # L1
+    Voltage_Factor: 0.0066
+    Voltage_Offset: 0.0312
+    Current_Factor: 0.005
+    Current_Offset: -2.4497
+  -  # L2
+    Voltage_Factor: 0.0066
+    Voltage_Offset: 0.1225
+    Current_Factor: 0.005
+    Current_Offset: -2.5828
+  -  # L3
+    Voltage_Factor: 0.0066
+    Voltage_Offset: 0.1331
+    Current_Factor: 0.005
+    Current_Offset: -2.5446
+  -  # R1
+    Voltage_Factor: 0.0066
+    Voltage_Offset: 0.1669
+    Current_Factor: 0.005
+    Current_Offset: -2.5777
+  -  # R2
+    Voltage_Factor: 0.0066
+    Voltage_Offset: 0.2004
+    Current_Factor: 0.005
+    Current_Offset: -2.5775
+  -  # R3
+    Voltage_Factor: 0.0066
+    Voltage_Offset: 0.2218
+    Current_Factor: 0.005
+    Current_Offset: -2.5627
+  -  # Bus 
+    Voltage_Factor: 0.0066
+    Voltage_Offset: 0.1563
+    Current_Factor: 0.005
+    Current_Offset: -2.5727
